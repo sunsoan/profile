@@ -1,0 +1,58 @@
+body{
+    background-color:#AE4141;
+    }
+.container{
+    position: relative;
+     max-width:800px;
+     margin:0 auto;
+     margin-top:20px;
+     padding:50px;
+     box-shadow:1px 1px 0px #dddddd;
+     background-color:rgba(255,255,255,10);
+     filter:alpha(opacity=80);
+     -moz-opacity:0.8;
+     opacity: 0.9;
+     font-family:'微软雅黑';
+     min-height:1000px;
+     }
+     table{
+         width:60%;
+         }
+
+
+.item-header:hover{
+    color:#AE4141;
+    cursor:pointer;
+    }
+
+.item-content{
+    padding-left:50px;
+    left:50px;
+}
+
+
+
+.line-container{
+    width:400px;
+    height: 350px;
+    display: inline-block;
+    }
+
+.pie-container{
+    width: 350px;
+    height:300px;
+    display: inline-block;
+    margin-left: 30px;
+    position:relative;
+    top:-50px;
+}
+
+.charts-container{
+    margin-top: 70px;
+}
+.my-photo{
+    position: absolute;
+    top:50px;
+    right: 50px;
+    width:200px;
+}
